@@ -37,7 +37,8 @@ export const LinkQuery = extendType({
             resolve(parent, args, context, info) {
                 return links;
             }
-        })
+        });
+
     }
 });
 
