@@ -1,4 +1,4 @@
-import { extendType, idArg, intArg, list, nonNull, objectType, stringArg } from "nexus";
+import { extendType, nonNull, objectType, stringArg } from "nexus";
 import { NexusGenObjects } from "../../nexus-typegen";
 
 export const Link = objectType({
